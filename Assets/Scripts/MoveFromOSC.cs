@@ -59,10 +59,7 @@ public class MoveFromOSC : MonoBehaviour
 
         //Debug.Log(x + "," + y + "," + z);
 
-        Vector3 dir = Vector3.zero;
-        dir.x = x;
-        dir.y = y;
-
+        Vector3 dir = new Vector3(x, y, 0);
         dir *= Time.deltaTime;
 
         transform.Translate(dir * speed);

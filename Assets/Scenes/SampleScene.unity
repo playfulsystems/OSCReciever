@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   osc: {fileID: 1432682397}
-  speed: 20
+  speed: 5
   isIOS: 1
   deviceUUID: jbwios
   dataType: gyro
